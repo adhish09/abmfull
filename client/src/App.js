@@ -21,6 +21,10 @@ import Download3 from "./components/Store/Download/Download3";
 import Download4 from "./components/Store/Download/Download4";
 import Download5 from "./components/Store/Download/Download5";
 
+const axiosInstance = axios.create({
+	baseURL: process.env.NEXT_PUBLIC_API_URL,
+})
+
 
 
 
