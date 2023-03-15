@@ -22,8 +22,7 @@ const connect = () => {
     });
 };
 
-app.get('/hello', (_, res) => res.send('Hello from Cules Coding'))
-app.get('/api/users', (_, res) => res.send('Hello from Cules Coding'))
+
 
 
 
